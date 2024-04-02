@@ -1,0 +1,10 @@
+mybatis:
+  mapper-locations: mybatis/mapper/*.xml
+
+spring:
+  h2:
+    console:
+      enabled: true
+  sql:
+    init:
+      mode: always
